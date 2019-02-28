@@ -1,0 +1,35 @@
+{
+    "name": "cubettech/lacassa",
+    "type": "library",
+    "description": "Cassandra based query builder for laravel.",
+    "license": "MIT",
+    "keywords": [
+        "cassandra",
+        "nosql",
+        "laravel",
+        "database",
+        "query builder",
+        "cql",
+        "lacassa"
+    ],
+    "require": {
+        "datastax/php-driver": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Sijoy Jos",
+            "email": "sijoy@cubettech.com"
+        },
+        {
+            "name": "Renny M Roy",
+            "email": "renny.roy@cubettech.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cubettech\\Lacassa\\":"src/"
+            }
+        },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
